@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevvo | Professional Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#" style="font-size: clamp(0.8rem, 4vw, 1.25rem);">NEVVO DWI CAHYA PRAMUDYA</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header border-bottom border-secondary">
+                    <h5 class="offcanvas-title fw-bold">MENU</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-3">
+                        <li class="nav-item"><a class="nav-link fs-5" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="#certificates">Certificates</a></li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section d-flex align-items-center text-center">
+        <div class="container" data-aos="fade-up">
+            <div class="mb-4 d-flex justify-content-center">
+                <img src="assets/WhatsApp Image 2026-02-10 at 10.33.52.jpeg" alt="Nevvo" class="rounded-circle profile-img shadow-lg mx-auto d-block">
+            </div>
+            <h1 class="display-3 fw-bold text-white">HALO, SAYA <span id="typing-text"></span></h1>
+            <p class="lead text-light opacity-75">Data Analyst | Junior Web Developer | ERP Specialist</p>
+            <div class="mt-4 d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-warning btn-lg rounded-pill px-4 fw-bold shadow">Lihat Proyek</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h2 class="fw-bold mb-4 border-start border-warning border-5 ps-3">Tentang Saya</h2>
+                    <p class="text-muted" style="line-height: 1.8; text-align: justify;">
+                        Halo! Saya adalah seorang individu yang memiliki minat mendalam di bidang <strong>Data Analytics</strong> dan <strong>Web Development</strong>. Fokus utama saya adalah menjembatani celah antara pengolahan data yang kompleks dengan visualisasi web yang intuitif dan fungsional. 
+                    </p>
+                    <p class="text-muted" style="line-height: 1.8; text-align: justify;">
+                        Dengan latar belakang pemahaman dalam sistem <em>Enterprise Resource Planning (ERP)</em>, saya terbiasa melihat gambaran besar bagaimana data mengalir di dalam sebuah organisasi. Saya berkomitmen untuk terus mengasah kemampuan teknis saya, mulai dari mengelola basis data menggunakan <strong>MySQL</strong>, melakukan analisis mendalam melalui <strong>Microsoft Excel</strong>, hingga membangun aplikasi modern menggunakan framework <strong>Laravel</strong>.
+                    </p>
+                    <p class="text-muted" style="line-height: 1.8; text-align: justify;">
+                        Bagi saya, setiap baris kode dan setiap set data memiliki cerita yang bisa dioptimalkan untuk membantu pengambilan keputusan yang lebih cerdas. Saya selalu terbuka untuk tantangan baru dan kolaborasi yang memungkinkan saya untuk berkontribusi sekaligus terus berkembang di industri teknologi yang dinamis ini.
+                    </p>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="p-4 bg-light rounded-4 shadow-sm border-top border-warning border-4">
+                        <h5 class="fw-bold mb-4 text-center">Fokus Utama</h5>
+                        <div class="row text-center g-3">
+                            <div class="col-6">
+                                <div class="p-3 bg-white rounded shadow-sm h-100">
+                                    <i class="fas fa-chart-line fa-2x text-warning mb-2"></i>
+                                    <p class="fw-bold small mb-0">Analisis Data</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 bg-white rounded shadow-sm h-100">
+                                    <i class="fas fa-laptop-code fa-2x text-warning mb-2"></i>
+                                    <p class="fw-bold small mb-0">Web Dev</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 bg-white rounded shadow-sm h-100">
+                                    <i class="fas fa-database fa-2x text-warning mb-2"></i>
+                                    <p class="fw-bold small mb-0">Basis Data</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 bg-white rounded shadow-sm h-100">
+                                    <i class="fas fa-sync-alt fa-2x text-warning mb-2"></i>
+                                    <p class="fw-bold small mb-0">Integrasi ERP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container py-5" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Technical Skills</h2>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h5 class="mb-4 fw-bold"><i class="fas fa-database text-warning me-2"></i>Data Analytics</h5>
+                    <div class="mb-3">
+                        <label class="d-flex justify-content-between fw-bold">MySQL <span>85%</span></label>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="85"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="d-flex justify-content-between fw-bold">Microsoft Excel <span>90%</span></label>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-4 fw-bold"><i class="fas fa-code text-warning me-2"></i>Web Development</h5>
+                    <div class="mb-3">
+                        <label class="d-flex justify-content-between fw-bold">Laravel Framework <span>75%</span></label>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="75"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="d-flex justify-content-between fw-bold">HTML, CSS & JS <span>95%</span></label>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="95"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="d-flex justify-content-between fw-bold">Figma (UI/UX) <span>80%</span></label>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="py-5 bg-white">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold mb-5" data-aos="fade-up">Certificates</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-5" data-aos="zoom-in">
+                    <div class="card border-0 shadow-sm h-100 certificate-card mx-auto">
+                        <div class="cert-img-container">
+                            <img src="assets/WhatsApp Image 2026-02-09 at 14.42.22.jpeg" alt="Sertifikat Utama">
+                        </div>
+                        <div class="card-body p-3">
+                            <h6 class="fw-bold mb-1">Professional Certification</h6>
+                            <p class="small text-muted mb-0" style="font-size: 0.8rem;">Sebagai penghargaan atas peran aktif dalam proses digitalisasi pengelolaan produksi Toko Kue Happy Yess</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold mb-5" data-aos="fade-up">Portofolio Proyek</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card border-0 shadow-sm h-100 project-card overflow-hidden">
+                        <div class="project-img-wrapper">
+                            <img src="assets/Cuplikan layar 2026-02-09 144926.png" class="card-img-top" alt="Aneka Sari">
+                        </div>
+                        <div class="card-body p-4 text-start">
+                            <h5 class="fw-bold">Aneka Sari - Home</h5>
+                            <p class="small text-muted">Sistem informasi produksi dan pembelian bahan baku berbasis web.</p>
+                            <span class="badge bg-dark">Web System</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100 project-card overflow-hidden">
+                        <div class="project-img-wrapper">
+                            <img src="assets/Cuplikan layar 2026-02-09 145039.png" class="card-img-top" alt="Honda Service">
+                        </div>
+                        <div class="card-body p-4 text-start">
+                            <h5 class="fw-bold">Honda Service Car</h5>
+                            <p class="small text-muted">Sistem Basis Data pelayanan service mobil pada Honda Trimegah.</p>
+                            <span class="badge bg-dark">Database</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card border-0 shadow-sm h-100 project-card overflow-hidden">
+                        <div class="project-img-wrapper">
+                            <img src="assets/Cuplikan layar 2026-02-09 145005.png" class="card-img-top" alt="AkuNgemil">
+                        </div>
+                        <div class="card-body p-4 text-start">
+                            <h5 class="fw-bold">AkuNgemil (Test Akmil)</h5>
+                            <p class="small text-muted">Project website pesan makanan & minuman kantin online.</p>
+                            <span class="badge bg-dark">Kantin Online</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4" data-aos="fade-up">LET'S CONNECT</h2>
+            <div class="d-flex justify-content-center gap-4 mb-3" data-aos="zoom-in">
+                <a href="https://instagram.com/nevvoprmudya" target="_blank" class="text-white fs-2 shadow-icon"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:nevvopramudya20@gmail.com" class="text-white fs-2 shadow-icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/nevvo20" target="_blank" class="text-white fs-2 shadow-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="mb-2" data-aos="fade-up">
+                <p class="mb-1 small text-light opacity-75">Email: nevvopramudya20@gmail.com</p>
+                <p class="mb-0 small text-light opacity-75">Instagram: @nevvoprmudya</p>
+                <p class="mb-0 small text-light opacity-75">Github: nevvo20</p>
+            </div>
+            <hr class="bg-secondary mx-auto" style="width: 50%; opacity: 0.2;">
+            <p class="small text-secondary mb-0">&copy; 2026 Nevvo. Built with Love & Code.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

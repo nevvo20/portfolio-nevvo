@@ -1,0 +1,143 @@
+/* General Config */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+/* Hero Section - Optimized for Mobile (No Lag) */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    /* Background attachment fixed dihapus untuk mencegah lag di HP */
+}
+
+/* Typing Effect */
+#typing-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffc107;
+    font-weight: 800;
+}
+
+.profile-img {
+    width: clamp(150px, 30vw, 180px); /* Ukuran adaptif untuk HP/PC */
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 4px solid #ffc107;
+    transition: 0.5s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(33, 37, 41, 0.95) !important;
+    backdrop-filter: blur(5px);
+}
+
+/* Progress Bars (Skills) */
+.progress {
+    background-color: #dee2e6;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.progress-bar {
+    transition: width 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 20px;
+}
+
+/* Project Cards */
+.project-card {
+    transition: 0.3s ease;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+}
+
+.project-img-wrapper {
+    height: 200px;
+    overflow: hidden;
+}
+
+.project-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-soft-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/* Certificate Styles */
+.certificate-card {
+    transition: 0.3s ease;
+    border-radius: 15px;
+    background: #f8f9fa;
+    max-width: 400px;
+}
+
+.cert-img-container {
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+    height: auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cert-img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Social Links & Footer */
+footer {
+    padding: 40px 0 20px 0 !important; /* Tinggi background menyesuaikan konten */
+    min-height: auto;
+}
+
+.social-link {
+    font-size: 2.2rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.shadow-icon {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.shadow-icon:hover {
+    color: #ffc107 !important;
+    transform: scale(1.2);
+}
+
+/* Responsive Fix for Mobile */
+@media (max-width: 576px) {
+    .display-3 {
+        font-size: 2rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
